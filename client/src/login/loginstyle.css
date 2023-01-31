@@ -1,0 +1,97 @@
+.loginstart{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    width: 70%;
+    height: 600px;
+    /* border-radius: 30px; */
+}
+
+.loginimage{
+    width: 50%;
+    background-color: rgb(15, 97, 97);
+    background-image: url('./succeed.jpg');
+    background-size: contain;
+    /* border-radius: 30px; */
+}
+
+.loginbox{
+    width: 400px;
+    height: 50px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-style: italic;
+    border: 0;
+}
+
+.loginhead{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.heading{
+    color: rgb(87, 159, 168);
+    margin-left: 20px;
+    font-style: italic;
+    text-decoration: underline;
+}
+.loginmain{
+    margin-right: 50px;
+}
+.loginform{
+    display: flex;
+    justify-content:flex-end;
+    width: 50%;
+}
+
+.loginemail{
+    display: flex;
+}
+
+.loginname {
+    display: flex;
+    margin-right: 35px;
+    padding-right: 30px;
+}
+
+
+.buttons{
+    margin-top: 10px;
+}
+
+.signupbutton:hover{
+    background-color: white;
+    color: black;
+}
+.loginbutton:hover{
+    background-color: black;
+    color: white;
+}
+
+.loginbutton{
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 35px;
+    font-size: 16px;
+    font-weight: 550;
+    border: 0;
+}
+
+.signupbutton{
+    background-color: rgb(255, 255, 255);
+    color: blue;
+    width: 100px;
+    height: 35px;
+    font-size: 16px;
+    font-weight: 550;
+    border: 0;
+    /* margin-left: 50px; */
+}

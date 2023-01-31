@@ -1,0 +1,74 @@
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.signup{
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    width: 70%;
+    height: 600px;
+    /* border-radius: 30px; */
+}
+
+.signupimage{
+    width: 50%;
+    background-color: rgb(15, 97, 97);
+    background-image: url('./succeed.jpg');
+    background-size: contain;
+    /* border-radius: 30px; */
+}
+
+.signupbox{
+    width: 400px;
+    height: 50px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-style: italic;
+    border: 0;
+}
+.noacc{
+    text-align: right;
+    width: 300px;
+}
+
+.signuphead{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.heading{
+    color: rgb(87, 159, 168);
+    margin-left: 20px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.signupmessage_box{
+    width: 570px;
+    height: 150px;
+    font-size: 20px;
+}
+
+.signupform{
+    display: flex;
+    justify-content:flex-end;
+    width: 50%;
+}
+
+.signupemail{
+    display: flex;
+}
+
+.signupname {
+    display: flex;
+    margin-right: 35px;
+    padding-right: 30px;
+}
+
+.buttons{
+    display: flex;
+}
